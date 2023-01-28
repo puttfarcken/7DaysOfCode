@@ -1,12 +1,14 @@
 @import url("style/header.css");
 
 :root{
-    --cor--fundo: #FFFFFF;
-    --fonte--principal: "Inter"
+    --branco: #FFFFFF;
+    --fonte--principal: "Inter";
+    --cor--texto: #667085;
+    --vermelho:#8E2424;
 }
 
 body{
-    background: var(--cor--fundo);
+    background: var(--branco);
     font-family: var(--fonte--principal);
     margin: 20px 96px;
 }
