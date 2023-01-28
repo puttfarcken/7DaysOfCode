@@ -1,6 +1,7 @@
 header{
     display: flex;
-    width: 100%
+    width: 100%;
+    justify-content: space-between;
 }
 .header__logo{
     display: flex;
@@ -22,13 +23,22 @@ header{
 .header__list{
     display:flex;
     flex-direction: row;
-    text-decoration: none;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
 }
 .header__list--item{
     list-style-type: none;
 }
 
+.list__item--link{
+    text-decoration: none;
+}
+
 .header__login{
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
     
 }
