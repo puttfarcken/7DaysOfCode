@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    width: 100%
+}
+.header__logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__logo-logo{
+    width: 27px;
+    height: 27px;
+}
+
+.header__logo--name-company{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header__list{
+    display:flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.header__list--item{
+    list-style-type: none;
+}
+
+.header__login{
+    display: flex;
+    
+}
