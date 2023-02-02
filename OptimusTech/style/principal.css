@@ -1,0 +1,82 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.principal__fundo{
+    width: 125px;
+    height: 28px;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+}
+
+.principal__fundo--info{
+    color: var(--vermelho);
+    width: 101px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+    
+
+}
+
+.principal__titulo{
+    width: 768px;
+    margin: 20px 0 20px 0;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.principal__descricao{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--cor--texto);
+    margin: 0 0 64px 0;
+}
+
+.principal__vagas--titulo--area{
+    margin-top: 64px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.principal__vagas--design,
+.principal__vagas--desenvolvimento--de--software{
+    box-sizing: border-box;
+    border: 1px solid var(--cinza);
+    border-radius: 16px;
+    padding: 20px 24px 28px 24px;
+    width: 768px;
+    height: 136px;
+    margin-bottom: 24px;
+    
+}
+
+.principal__vagas--titulo{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    
+}
+
+.principal__vagas--descricao{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--cor--texto);
+}
