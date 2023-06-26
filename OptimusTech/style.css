@@ -16,5 +16,7 @@
 body{
     background: var(--branco);
     font-family: var(--fonte--principal);
-    margin: 20px 96px;
+    
 }
+
+margin: 20px 96px;
